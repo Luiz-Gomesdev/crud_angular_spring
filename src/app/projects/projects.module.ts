@@ -1,6 +1,6 @@
+import { AppMaterialModule } from './../shared/app-material/app-material.module';
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { MatTableModule } from '@angular/material/table';
 
 import { ProjectsRoutingModule } from './projects-routing.module';
 import { ProjectsComponent } from './projects/projects.component';
@@ -12,7 +12,7 @@ import { ProjectsComponent } from './projects/projects.component';
   imports: [
     CommonModule,
     ProjectsRoutingModule,
-    MatTableModule
+    AppMaterialModule
   ]
 })
 export class ProjectsModule { }
